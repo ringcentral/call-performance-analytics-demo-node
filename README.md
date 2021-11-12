@@ -2,7 +2,7 @@
 
 This is a straight forward Node.JS based console application that demonstrates how to use RingCentral's Analytics (Call Performance APIs). The resulting JSON is rendered on the standard console. 
 
-This application setup to use RingCentral's Password flow based authentication.
+This application setup to use RingCentral's Password flow based authentication and it needs to have 'Analytics' permission enabled. Currently private beta API users can request theier application to have this permission by contacting us.
 
 More information about that can be found in the [developer guide.](https://developers.ringcentral.com/guide/analytics)
 
