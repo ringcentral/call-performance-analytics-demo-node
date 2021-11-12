@@ -9,6 +9,7 @@ More information about that can be found in the [developer guide.](https://devel
 1. Node.JS
 2. Have a RingCentral Application with 'Analytics Permission' in your Developer Console. If not, you can easily create one by signing up for a [free developer account.] (https://developers.ringcentral.com/login.html#/)
 3. Get the RingCentral Application ID & Secret Key from Developer Console. This application uses "Production" credentials but you can also use your "Sandbox" credentials.
+4. You need to create a .env file to load your credentials.
 
 ## Steps to run the program
 
