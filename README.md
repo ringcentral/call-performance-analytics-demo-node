@@ -15,11 +15,12 @@ More information about that can be found in the [developer guide.](https://devel
 1. Clone/Download this GitHub Repository
 2. Open the project in any IDE such as Visual Studio Code
 3. Edit the .env file with your Application Credentials
+4. After editing the .env file run the following commands
 
 ```bash
 cd <repo>
 npm install
 node index.js
 ```
-4. Open Console to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
+5. Open Console to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
 
