@@ -8,19 +8,18 @@ More information about that can be found in the [developer guide.](https://devel
 
 1. Node.JS
 2. Have a RingCentral Application with 'Analytics Permission' in your Developer Console. If not, you can easily create one by signing up for a [free developer account.] (https://developers.ringcentral.com/login.html#/)
-3. Get the RingCentral Application ID & Secret Key from Developer Console. You need the "Production" credentials as that will be used for authentication purpose.
+3. Get the RingCentral Application ID & Secret Key from Developer Console. This application uses "Production" credentials but you can also use your "Sandbox" credentials.
 
 ## Steps to run the program
 
 1. Clone/Download this GitHub Repository
 2. Open the project in any IDE such as Visual Studio Code
-3. Edit the .env file with your Application Security Credentials
+3. Edit the .env file with your Application Credentials
 
-```
+```bash
 cd <repo>
 npm install
-npm run
-
+node index.js
 ```
-4. Open Console to see the JSON Response showing both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
+4. Open Console to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
 

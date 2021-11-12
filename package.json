@@ -1,0 +1,20 @@
+{
+  "name": "com.ringcentral",
+  "version": "1.0.0",
+  "description": "Call Performance Analytics API Demo",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "analytics",
+    "RingCentral"
+  ],
+  "author": "Suyash Joshi",
+  "license": "MIT",
+  "dependencies": {
+    "@ringcentral/sdk": "^4.6.1",
+    "dotenv": "^10.0.0"
+  }
+}
