@@ -17,7 +17,7 @@ More information about that can be found in the [developer guide.](https://devel
 
 1. Clone/Download this GitHub Repository
 2. Open the project in any IDE such as Visual Studio Code
-3. Edit the .env file with your Application Credentials
+3. Edit the .env file with your Application Credentials. Make sure not to expose your Application Credentials publicly. You can even add .env file to your .gitignore file.
 4. After editing the .env file run the following commands
 
 ```bash
