@@ -2,12 +2,14 @@
 
 This is a straight forward Node.JS based console application that demonstrates how to use RingCentral's Analytics (Call Performance APIs). The resulting JSON is rendered on the standard console. 
 
+This application setup to use RingCentral's Password flow based authentication.
+
 More information about that can be found in the [developer guide.](https://developers.ringcentral.com/guide/analytics)
 
 ## PreRequisite:
 
 1. Node.JS
-2. Have a RingCentral Application with 'Analytics Permission' in your Developer Console. If not, you can easily create one by signing up for a [free developer account.] (https://developers.ringcentral.com/login.html#/)
+2. Have a RingCentral Application with 'Analytics Permission' in your Developer Console. If not, you can easily create one by signing up for a [free developer account.] (https://developers.ringcentral.com/login.html#/). Make sure the app supports 'password flow' based authentication.
 3. Get the RingCentral Application ID & Secret Key from Developer Console. This application uses "Production" credentials but you can also use your "Sandbox" credentials.
 4. You need to create a .env file to load your credentials.
 
