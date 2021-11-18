@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    environment: sandbox
     runs-on: ubuntu-latest
 
     strategy:
@@ -29,3 +29,9 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    env:
+      RC_CLIENT_ID: ${{secrets.RC_CLIENT_ID}}
+      RC_CLIENT_SECRET : ${{secrets.RC_CLIENT_SECRET}}
+      RC_USERNAME: ${{secrets.RC_USERNAME}}
+      RC_PASSWORD: ${{secrets.RC_PASSWORD}}
+      RC_EXTENSION: ${{secrets.RC_EXTENSION}}
