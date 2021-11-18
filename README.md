@@ -11,19 +11,29 @@ More information about that can be found in the [developer guide.](https://devel
 1. Node.JS
 2. Have a RingCentral Application with 'Analytics Permission' in your Developer Console. If not, you can easily create one by signing up for a [free developer account.] (https://developers.ringcentral.com/login.html#/). Make sure the app supports 'password flow' based authentication.
 3. Get the RingCentral Application ID & Secret Key from Developer Console. This application uses "Production" credentials but you can also use your "Sandbox" credentials.
-4. You need to create a .env file to load your credentials.
+4. Update the values for the .env file based on the previous step
 
 ## Steps to run the program
 
 1. Clone/Download this GitHub Repository
 2. Open the project in any IDE such as Visual Studio Code
-3. Edit the .env file with your Application Credentials. Make sure not to expose your Application Credentials publicly. You can even add .env file to your .gitignore file.
-4. After editing the .env file run the following commands
+3. Make sure your the .env file has all the values for the various fields and also make sure not to expose your Application Credentials publicly. You can even add .env file to your .gitignore file.
+4. Run the following commands
 
 ```bash
 cd <repo>
 npm install
-node index.js
+npm run-script run
 ```
 5. Open Console to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
+
+## Steps to run Tests
+
+The following command will run the Mocha Unit Tests
+
+```
+npm test
+```
+
+
 
