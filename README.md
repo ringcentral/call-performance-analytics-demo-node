@@ -1,3 +1,5 @@
+![example workflow](https://github.com/ringcentral/call-performance-analytics-demo-node/actions/workflows/node.js.yml/badge.svg)
+
 # Call Performance Demo Application (Node.JS)
 
 This is a straight forward Node.JS based console application that demonstrates how to use RingCentral's Analytics (Call Performance APIs). The resulting JSON is rendered on the standard console. 
